@@ -3,10 +3,19 @@
 // include header file
 #include "./headers/BasicIO.h"
 #include "./headers/Decisions.h"
+#include "./headers/Loops.h"
 
 int main(void) {
     // puts("Hello World!!!");
+    // testing Basic IO functionality
     // output();
     // input();
-    decisions1();
+    // testing Decisions functionality
+    // decisions1();
+    // testing Loops functionality
+    loops1();
+    loops2();
+    loops3();
+    loops4();
+    loops5();
 }
