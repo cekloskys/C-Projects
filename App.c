@@ -24,10 +24,10 @@ int main(void) {
     char student[] = "Sue";
     char course[] = "Ruby";
     char programmer[] = "Yukihiro Matsumoto";
-    congratulate1(student, course, programmer);
+    congratulate1(student, course, programmer);  
     congratulate2(student, course, programmer);
-    printf("%.2f degrees celsius = %.2f degrees fahrenheit\n", 
+    printf("%.2f degrees celsius = %.2f degrees fahrenheit\n",
         0.0, fahrenheitFromCelsius(0.0));
-    printf("%.2f degrees celsius = %.2f degrees fahrenheit\n", 
+        printf("%.2f degrees celsius = %.2f degrees fahrenheit\n",
         100.0, fahrenheitFromCelsius(100.0));
 }
